@@ -32,6 +32,11 @@ li a{
   border-radius: 100%;
 }
 
+a:hover{
+  background-color: black;
+  color: white;
+}
+
 section{
   position: relative;
   height: 100vh;
