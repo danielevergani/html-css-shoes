@@ -1,1 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+nav{
+  display: inline-block;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
