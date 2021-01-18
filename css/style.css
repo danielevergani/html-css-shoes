@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Yusei Magic', sans-serif;
+}
+
 nav{
   display: inline-block;
   margin-top: 30px;
   position: absolute;
-  left: 84%
+  left: 84%;
+  z-index: 10;
 }
 
 nav ul li{
@@ -18,8 +23,30 @@ nav ul li{
 
 li a{
   text-decoration: none;
+  color: black;
+  font-size: 12px;
+  background-color: white;
   margin-left: 30px;
   padding: 8px 10px;
   border: 1px solid black;
   border-radius: 100%;
+}
+
+section{
+  position: relative;
+  height: 100vh;
+  background-color: red;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.punta, .modello{
+  text-align: center;
+  font-size: 40px;
+  color: yellow;
 }
