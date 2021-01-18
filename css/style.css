@@ -38,6 +38,14 @@ section{
   background-color: red;
 }
 
+#sezione-2{
+  background-color: green;
+}
+
+#sezione-3{
+  background-color: yellow;
+}
+
 .container{
   position: absolute;
   top: 50%;
@@ -49,4 +57,8 @@ section{
   text-align: center;
   font-size: 40px;
   color: yellow;
+}
+
+#sezione-3 h2{
+  color: green;
 }
